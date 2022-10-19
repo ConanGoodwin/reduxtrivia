@@ -18,6 +18,7 @@ export default function App() {
         {/* <p>SUA VEZ</p> */}
         <Switch>
           <Route exact path="/" component={ Login } />
+          <Route exact path="reduxtrivia/" component={ Login } />
           <Route exact path="/game" component={ Game } />
           <Route exact path="/settings" component={ Settings } />
           <Route exact path="/feedback" component={ FeedBack } />
