@@ -19,6 +19,7 @@ export default function App() {
         <Switch>
           <Route exact path="/" component={ Login } />
           <Route exact path="reduxtrivia/" component={ Login } />
+          <Route exact path="conangoodwin.github.io/reduxtrivia/" component={ Login } />
           <Route exact path="/game" component={ Game } />
           <Route exact path="/settings" component={ Settings } />
           <Route exact path="/feedback" component={ FeedBack } />
