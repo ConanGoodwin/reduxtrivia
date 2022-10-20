@@ -2,9 +2,16 @@ import React, { Component } from 'react';
 import './style/settings.css';
 
 class Settings extends Component {
+  handleSubmit = (event) => {
+    const { history } = this.props;
+    
+    event.preventDefault();
+    history.push('/');
+  }
+
   render() {
     return (
-      <form className="sett_ings">
+      <form className="sett_ings" onSubmit={this.handleSubmit}>
         <h1 data-testid="settings-title">Configurações</h1>
 
         <div className="control has-icons-left marg">
