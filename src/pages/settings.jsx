@@ -4,9 +4,9 @@ import './style/settings.css';
 class Settings extends Component {
   handleSubmit = (event) => {
     const { history } = this.props;
-    
+
     event.preventDefault();
-    history.push('/');
+    history.push('/reduxtrivia');
   }
 
   render() {
